@@ -1,7 +1,7 @@
-require 'commands/list'
+require 'commands/stories'
 
 module Commands
-  class Features < List
+  class Features < Stories
 
     def type
       "feature"

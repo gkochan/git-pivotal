@@ -1,7 +1,7 @@
-require 'commands/list'
+require 'commands/stories'
 
 module Commands
-  class Chores < List
+  class Chores < Stories
 
     def type
       "chore"

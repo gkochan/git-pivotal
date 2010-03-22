@@ -1,7 +1,7 @@
 require 'commands/base'
 
 module Commands
-  class List < Base
+  class Stories < Base
 
     def type
       "story"

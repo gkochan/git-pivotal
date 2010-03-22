@@ -1,7 +1,7 @@
-require 'commands/list'
+require 'commands/stories'
 
 module Commands
-  class Bugs < List
+  class Bugs < Stories
 
     def type
       "bug"
