@@ -55,6 +55,7 @@ module Commands
         opts.on("-n", "--full-name=", "Pivotal Trakcer full name") { |n| options[:full_name] = n }
         opts.on("-q", "--quiet", "Quiet, no-interaction mode") { |q| options[:quiet] = q }
         opts.on("-v", "--[no-]verbose", "Run verbosely") { |v| options[:verbose] = v }
+        opts.on("-f", "--full", "Print full story information for list commands") { |f| options[:full] = f }
         opts.on_tail("-h", "--help", "This usage guide") { put opts; exit 0 }
       end.parse!(args)
     end
